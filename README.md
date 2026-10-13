@@ -3,6 +3,11 @@
 **ColdCase Vault** is an investigative intelligence platform and true-crime case archive. Designed to store, cross-examine, and deduce relational links between complex cold case entities, this application utilizes a modern React client alongside a **GraphRAG** (Graph Retrieval-Augmented Generation) pipeline powered by Neo4j and high-throughput LLM inference.
 
 ---
+## Initial Raw Neo-4j Aura DB implementation
+<img width="485" height="317" alt="Screenshot 2026-10-13 153453" src="https://github.com/user-attachments/assets/e18fd339-5752-414e-bf08-8571011cb775" />
+<img width="490" height="334" alt="Screenshot 2026-10-13 153517" src="https://github.com/user-attachments/assets/96457ec1-ef95-446e-a77d-be454d49d79e" />
+<img width="406" height="188" alt="Screenshot 2026-10-13 153543" src="https://github.com/user-attachments/assets/64bee4a3-c761-4597-a7b6-da5246a780ee" />
+
 
 ## ✨ Features & Interface Walkthrough
 
@@ -11,22 +16,32 @@
 ### 1. Secure Investigator Gateway
 The entry point to the application features a thematic "RESTRICTED ACCESS" login interface, setting the immersive tone of a classified police database while securing the platform's endpoints.
 
-![Investigator Gateway Screenshot](path/to/your/login-screenshot.png)
+<img width="928" height="425" alt="Screenshot 2026-10-13 153729" src="https://github.com/user-attachments/assets/3cdf75f5-428f-43cb-9fa3-43289dd595f2" />
+
 
 ### 2. Centralized Case Archives Dashboard
 A high-level directory where investigators can browse the master list of unsolved crimes. It fetches real-time case lists, deduplicates files, and displays critical metadata (occurrence dates, statuses) for easy navigation.
 
-![Case Archives Screenshot](path/to/your/archives-screenshot.png)
+<img width="946" height="438" alt="Screenshot 2026-10-13 155059" src="https://github.com/user-attachments/assets/b3b8c8ea-e254-49ac-82a9-80e2439be882" />
+
 
 ### 3. Entity-Relationship Dossiers
 An encyclopedia-style subsystem that breaks down the granular elements of a crime. Click into specific entities to view detailed suspect profiles (aliases, alibis) and physical evidence logs directly linked to crime scenes.
 
-![Entity Dossier Screenshot](path/to/your/wiki-detail-screenshot.png)
+<img width="690" height="386" alt="Screenshot 2026-10-13 154049" src="https://github.com/user-attachments/assets/d80544f9-d877-46c9-8a8e-8efecefa9fb1" />
+
 
 ### 4. GraphRAG AI Interrogation Engine
 The crown jewel of the platform. An interactive chat interface that allows users to actively "interrogate" the case files using natural language. It handles multi-hop reasoning (e.g., cross-referencing alibis with phone records) and grounds every response in strict factual data to prevent AI hallucinations.
 
-![Interrogation Engine Screenshot](path/to/your/interrogation-screenshot.png)
+<img width="229" height="359" alt="Screenshot 2026-10-13 155155" src="https://github.com/user-attachments/assets/204d483c-69a7-4f5d-8ab0-9cf0799f62f6" />
+<img width="926" height="397" alt="Screenshot 2026-10-13 154706" src="https://github.com/user-attachments/assets/5e580445-14bc-4797-a89a-b333ebac97fe" />
+
+Used embedded links for documentary trailers that redirects you to the official YouTube trailer release. 
+<img width="893" height="417" alt="Screenshot 2026-10-13 154722" src="https://github.com/user-attachments/assets/7b26c0be-1f9d-4ba9-b216-233c9824bd6f" />
+<img width="649" height="428" alt="Screenshot 2026-10-13 154829" src="https://github.com/user-attachments/assets/d621c52b-a25f-486f-858d-225129084df3" />
+
+
 
 ---
 
@@ -79,6 +94,10 @@ npm start
 ## 🌍 Cloud Deployment Status
 
 * **Frontend:** Deployed via Vercel Edge Network.
+  <img width="748" height="417" alt="Screenshot 2026-10-13 153629" src="https://github.com/user-attachments/assets/f219200c-7043-42e2-ad9d-0ab479b4bf33" />
+
 * **Backend:** Deployed via Render Web Services.
+  <img width="947" height="476" alt="Screenshot 2026-10-13 153613" src="https://github.com/user-attachments/assets/9cb7ed05-596e-4cd2-a4c8-cfe70fde41cb" />
+
 
 *Built as a comprehensive demonstration of Graph Database architecture and zero-hallucination AI inference.*
