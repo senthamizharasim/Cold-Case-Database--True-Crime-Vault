@@ -3,7 +3,7 @@ const Groq = require('groq-sdk');
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 const express = require('express');
 const cors = require('cors');
-app.use(cors()); // Allows incoming requests from your deployed frontend
+ // Allows incoming requests from your deployed frontend
 const neo4j = require('neo4j-driver');
 
 const app = express();
